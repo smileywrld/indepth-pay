@@ -1,0 +1,219 @@
+:root {
+    --font-family: 'Clash Display', sans-serif;
+    --Green: #239152
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: var(--font-family)
+}
+
+.nav-link {
+    color: white;
+    font-size: 24px;
+
+}
+
+.navbar-brand:hover {
+    color: white
+}
+
+.nav-link:hover {
+    color: white
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 30px
+}
+
+/* Introduction Css  */
+.Contact {
+    color: white;
+    border: 1px solid white;
+    background-color: inherit;
+}
+
+.Step {
+    font-size: 55px
+}
+
+.Phone_image {
+    height: 500px
+}
+
+.Green {
+    color: var(--Green)
+}
+
+.Take_paragraph {
+    font-size: 25px
+}
+
+.Account {
+    background: inherit;
+    color: white;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    transition-duration: 1.5s;
+    transition-property: background;
+    transition-timing-function: ease-in;
+
+}
+
+.Account:hover {
+    background-color: var(--Green);
+    border: 1px solid var(--Green);
+}
+
+.icon {
+    font-size: 18px
+}
+
+.Login {
+    background: inherit;
+    color: white;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    transition-duration: 1.5s;
+    transition-property: background;
+    transition-timing-function: ease-in;
+}
+
+.Login:hover {
+    background-color: var(--Green);
+    border: 1px solid var(--Green);
+}
+
+/* Introduction Ends Here */
+
+
+/* Second Section Css */
+.Second_sec {
+    background: white;
+    color: #212529;
+
+}
+
+.Sen-Paragraph {
+    font-size: 26px
+}
+
+/* Second Ends Here */
+
+/* Third Section */
+.Third_Section {
+    background: white;
+    color: black;
+
+}
+
+.Currency {
+    border: 2px solid #212529;
+    border-radius: 33px;
+
+}
+
+.house {
+    width: 60px;
+    background: white
+}
+
+.Receive {
+    font-size: 20px
+}
+
+.Login2 {
+    background: inherit;
+    color: black;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    transition-duration: 1.5s;
+    transition-property: background;
+    transition-timing-function: ease-in;
+    border: 1px solid black
+}
+
+.Login2:hover {
+    background-color: var(--Green);
+    border: 1px solid var(--Green);
+    color: white
+}
+
+.Transaction {
+    height: 600px
+}
+
+.Third_Sectionp {
+    transition-duration: 1.5s;
+    transition-property: background;
+    transition-timing-function: ease-in-out;
+}
+
+.Third_Sectionp:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.Login_js {
+    background: inherit;
+    color: white;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    transition-duration: 1.5s;
+    transition-property: background;
+    transition-timing-function: ease-in;
+    border: 1px solid white
+}
+
+/* Third Section Ends Here */
+
+/* Fourth Scetion Starts Here */
+.Fourth_sec {
+    background: white;
+    color: #212529
+}
+
+.tower {
+    height: 300px
+}
+
+.Tower {
+    background: #EFF1F7;
+    border-radius: 40px
+}
+
+.C {
+    border-radius: 40px
+}
+
+.Send {
+    color: #212529;
+}
+
+.WHo {
+    font-size: 25px
+}
+
+.flex {
+    height: 300px
+}
+
+.Footer {
+    color: white
+}
+
+.socials {
+    font-size: 19px;
+    margin-right: 10px
+}
