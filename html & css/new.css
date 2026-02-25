@@ -1,0 +1,312 @@
+:root {
+    --font-family: 'Clash Display', sans-serif;
+    --Green: #239152;
+}
+
+/* GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: var(--font-family);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* ========================= */
+/* NAVIGATION */
+/* ========================= */
+
+.navbar {
+    padding: 25px 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 30px;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.nav-links a:hover {
+    color: var(--Green);
+}
+
+.contact-btn {
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* ========================= */
+/* HERO SECTION */
+/* ========================= */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 0;
+    gap: 50px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.green {
+    color: var(--Green);
+}
+
+.hero-text p {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    padding: 12px 25px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    transition: 0.6s ease-in-out;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.primary,
+.secondary {
+    background: transparent;
+    color: white;
+}
+
+.primary:hover,
+.secondary:hover {
+    background-color: var(--Green);
+    border: 1px solid var(--Green);
+}
+
+.icon {
+    margin-left: 8px;
+}
+
+/* Phone Image */
+.hero-image img {
+    height: 500px;
+    max-width: 100%;
+}
+
+/* ========================= */
+/* SECOND SECTION */
+/* ========================= */
+
+.features {
+    background: white;
+    color: #212529;
+    padding: 80px 0;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    text-align: center;
+}
+
+.feature img {
+    width: 100px;
+}
+
+.feature h2 {
+    margin: 15px 0;
+}
+
+.feature p {
+    font-size: 26px;
+}
+
+/* ========================= */
+/* THIRD SECTION */
+/* ========================= */
+
+.currency {
+    background: white;
+    color: black;
+    padding: 100px 0;
+}
+
+.currency-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    border: 2px solid #212529;
+    border-radius: 33px;
+    padding: 60px;
+    transition: 1s ease-in-out;
+}
+
+.currency-content:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.currency-text {
+    flex: 1;
+}
+
+.currency-text img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.currency-text p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.currency-image img {
+    height: 600px;
+    max-width: 100%;
+}
+
+/* Special button in white section */
+.currency .btn {
+    border: 1px solid black;
+    color: black;
+}
+
+.currency .btn:hover {
+    background-color: var(--Green);
+    border: 1px solid var(--Green);
+    color: white;
+}
+
+/* ========================= */
+/* FOURTH SECTION */
+/* ========================= */
+
+.cards-section {
+    background: white;
+    color: #212529;
+    padding: 100px 0;
+    display: flex;
+    gap: 40px;
+}
+
+.card {
+    flex: 1;
+    border-radius: 40px;
+    background: #EFF1F7;
+    padding: 50px;
+    text-align: center;
+}
+
+.card img {
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    margin: 20px 0;
+}
+
+.card p {
+    font-size: 25px;
+}
+
+/* ========================= */
+/* FOOTER */
+/* ========================= */
+
+.footer {
+    padding: 80px 0;
+}
+
+.footer-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer h3,
+.footer h4 {
+    margin-bottom: 15px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.socials {
+    font-size: 19px;
+    margin-right: 10px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* ========================= */
+/* RESPONSIVE */
+/* ========================= */
+
+@media (max-width: 992px) {
+
+    .hero,
+    .feature-grid,
+    .currency-content,
+    .cards-section,
+    .footer-grid {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-image img,
+    .currency-image img {
+        height: auto;
+    }
+
+    .nav-links {
+        display: none;
+    }
+}
