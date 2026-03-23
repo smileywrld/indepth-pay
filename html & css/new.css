@@ -1,8 +1,3 @@
-:root {
-    --font-family: 'Clash Display', sans-serif;
-    --Green: #239152;
-}
-
 /* GLOBAL */
 * {
     margin: 0;
@@ -13,7 +8,7 @@
 body {
     background-color: black;
     color: white;
-    font-family: var(--font-family);
+    font-family: 'Outfit', sans-serif;
 }
 
 .container {
@@ -22,9 +17,7 @@ body {
     margin: auto;
 }
 
-/* ========================= */
 /* NAVIGATION */
-/* ========================= */
 
 .navbar {
     padding: 25px 0;
@@ -54,7 +47,7 @@ body {
 }
 
 .nav-links a:hover {
-    color: var(--Green);
+    color: #239152;
 }
 
 .contact-btn {
@@ -87,7 +80,7 @@ body {
 }
 
 .green {
-    color: var(--Green);
+    color: #239152;
 }
 
 .hero-text p {
@@ -119,8 +112,8 @@ body {
 
 .primary:hover,
 .secondary:hover {
-    background-color: var(--Green);
-    border: 1px solid var(--Green);
+    background-color: #239152;
+    border: 1px solid #239152;
 }
 
 .icon {
@@ -215,8 +208,8 @@ body {
 }
 
 .currency .btn:hover {
-    background-color: var(--Green);
-    border: 1px solid var(--Green);
+    background-color: #239152;
+    border: 1px solid #239152;
     color: white;
 }
 
